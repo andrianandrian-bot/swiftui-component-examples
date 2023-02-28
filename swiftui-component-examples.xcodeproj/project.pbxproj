@@ -11,6 +11,23 @@
 		E143962B29ACBC0700CC4E70 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E143962A29ACBC0700CC4E70 /* ContentView.swift */; };
 		E143962D29ACBC0800CC4E70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E143962C29ACBC0800CC4E70 /* Assets.xcassets */; };
 		E143963029ACBC0800CC4E70 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E143962F29ACBC0800CC4E70 /* Preview Assets.xcassets */; };
+		E143963829ACBC5500CC4E70 /* NukeUI in Frameworks */ = {isa = PBXBuildFile; productRef = E143963729ACBC5500CC4E70 /* NukeUI */; };
+		E143963B29ACBC8100CC4E70 /* GRPC in Frameworks */ = {isa = PBXBuildFile; productRef = E143963A29ACBC8100CC4E70 /* GRPC */; };
+		E143963E29ACBCA800CC4E70 /* SwiftProtobuf in Frameworks */ = {isa = PBXBuildFile; productRef = E143963D29ACBCA800CC4E70 /* SwiftProtobuf */; };
+		E143964029ACBD4500CC4E70 /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E143963F29ACBD4500CC4E70 /* GradientButton.swift */; };
+		E143964329ACBECF00CC4E70 /* Recommendation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E143964229ACBECF00CC4E70 /* Recommendation.swift */; };
+		E143964529ACBEE600CC4E70 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E143964429ACBEE600CC4E70 /* User.swift */; };
+		E143964729ACBF0400CC4E70 /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = E143964629ACBF0400CC4E70 /* Media.swift */; };
+		E143964929ACBF4B00CC4E70 /* TopCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E143964829ACBF4B00CC4E70 /* TopCard.swift */; };
+		E143964B29ACBFBF00CC4E70 /* DottedProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = E143964A29ACBFBF00CC4E70 /* DottedProgress.swift */; };
+		E143964E29ACC02800CC4E70 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = E143964D29ACC02800CC4E70 /* Images.swift */; };
+		E143965029ACC2B700CC4E70 /* UserMatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = E143964F29ACC2B700CC4E70 /* UserMatch.swift */; };
+		E143965229ACC2D800CC4E70 /* MatchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E143965129ACC2D800CC4E70 /* MatchCell.swift */; };
+		E143965429ACC32300CC4E70 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = E143965329ACC32300CC4E70 /* Match.swift */; };
+		E143965629ACC33A00CC4E70 /* Dialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = E143965529ACC33A00CC4E70 /* Dialog.swift */; };
+		E143965829ACC36000CC4E70 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = E143965729ACC36000CC4E70 /* Message.swift */; };
+		E143965A29ACC43900CC4E70 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E143965929ACC43900CC4E70 /* Color+Extension.swift */; };
+		E143965C29ACC50300CC4E70 /* OneLineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E143965B29ACC50300CC4E70 /* OneLineTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +36,20 @@
 		E143962A29ACBC0700CC4E70 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E143962C29ACBC0800CC4E70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E143962F29ACBC0800CC4E70 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E143963F29ACBD4500CC4E70 /* GradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
+		E143964229ACBECF00CC4E70 /* Recommendation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recommendation.swift; sourceTree = "<group>"; };
+		E143964429ACBEE600CC4E70 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E143964629ACBF0400CC4E70 /* Media.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Media.swift; sourceTree = "<group>"; };
+		E143964829ACBF4B00CC4E70 /* TopCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopCard.swift; sourceTree = "<group>"; };
+		E143964A29ACBFBF00CC4E70 /* DottedProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DottedProgress.swift; sourceTree = "<group>"; };
+		E143964D29ACC02800CC4E70 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		E143964F29ACC2B700CC4E70 /* UserMatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserMatch.swift; sourceTree = "<group>"; };
+		E143965129ACC2D800CC4E70 /* MatchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchCell.swift; sourceTree = "<group>"; };
+		E143965329ACC32300CC4E70 /* Match.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
+		E143965529ACC33A00CC4E70 /* Dialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dialog.swift; sourceTree = "<group>"; };
+		E143965729ACC36000CC4E70 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		E143965929ACC43900CC4E70 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		E143965B29ACC50300CC4E70 /* OneLineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneLineTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +57,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E143963B29ACBC8100CC4E70 /* GRPC in Frameworks */,
+				E143963829ACBC5500CC4E70 /* NukeUI in Frameworks */,
+				E143963E29ACBCA800CC4E70 /* SwiftProtobuf in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,10 +85,17 @@
 		E143962729ACBC0700CC4E70 /* swiftui-component-examples */ = {
 			isa = PBXGroup;
 			children = (
+				E143964C29ACC01B00CC4E70 /* Extensions */,
+				E143964129ACBEB600CC4E70 /* Dto */,
 				E143962829ACBC0700CC4E70 /* swiftui_component_examplesApp.swift */,
 				E143962A29ACBC0700CC4E70 /* ContentView.swift */,
+				E143963F29ACBD4500CC4E70 /* GradientButton.swift */,
 				E143962C29ACBC0800CC4E70 /* Assets.xcassets */,
 				E143962E29ACBC0800CC4E70 /* Preview Content */,
+				E143964829ACBF4B00CC4E70 /* TopCard.swift */,
+				E143964A29ACBFBF00CC4E70 /* DottedProgress.swift */,
+				E143965129ACC2D800CC4E70 /* MatchCell.swift */,
+				E143965B29ACC50300CC4E70 /* OneLineTextField.swift */,
 			);
 			path = "swiftui-component-examples";
 			sourceTree = "<group>";
@@ -65,6 +106,29 @@
 				E143962F29ACBC0800CC4E70 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E143964129ACBEB600CC4E70 /* Dto */ = {
+			isa = PBXGroup;
+			children = (
+				E143964229ACBECF00CC4E70 /* Recommendation.swift */,
+				E143964429ACBEE600CC4E70 /* User.swift */,
+				E143964629ACBF0400CC4E70 /* Media.swift */,
+				E143964F29ACC2B700CC4E70 /* UserMatch.swift */,
+				E143965329ACC32300CC4E70 /* Match.swift */,
+				E143965529ACC33A00CC4E70 /* Dialog.swift */,
+				E143965729ACC36000CC4E70 /* Message.swift */,
+			);
+			path = Dto;
+			sourceTree = "<group>";
+		};
+		E143964C29ACC01B00CC4E70 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E143964D29ACC02800CC4E70 /* Images.swift */,
+				E143965929ACC43900CC4E70 /* Color+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +147,11 @@
 			dependencies = (
 			);
 			name = "swiftui-component-examples";
+			packageProductDependencies = (
+				E143963729ACBC5500CC4E70 /* NukeUI */,
+				E143963A29ACBC8100CC4E70 /* GRPC */,
+				E143963D29ACBCA800CC4E70 /* SwiftProtobuf */,
+			);
 			productName = "swiftui-component-examples";
 			productReference = E143962529ACBC0700CC4E70 /* swiftui-component-examples.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +180,11 @@
 				Base,
 			);
 			mainGroup = E143961C29ACBC0700CC4E70;
+			packageReferences = (
+				E143963629ACBC5500CC4E70 /* XCRemoteSwiftPackageReference "NukeUI" */,
+				E143963929ACBC8100CC4E70 /* XCRemoteSwiftPackageReference "grpc-swift" */,
+				E143963C29ACBCA800CC4E70 /* XCRemoteSwiftPackageReference "swift-protobuf" */,
+			);
 			productRefGroup = E143962629ACBC0700CC4E70 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +211,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E143964B29ACBFBF00CC4E70 /* DottedProgress.swift in Sources */,
+				E143965A29ACC43900CC4E70 /* Color+Extension.swift in Sources */,
+				E143964329ACBECF00CC4E70 /* Recommendation.swift in Sources */,
 				E143962B29ACBC0700CC4E70 /* ContentView.swift in Sources */,
+				E143965C29ACC50300CC4E70 /* OneLineTextField.swift in Sources */,
+				E143964729ACBF0400CC4E70 /* Media.swift in Sources */,
+				E143965029ACC2B700CC4E70 /* UserMatch.swift in Sources */,
+				E143964E29ACC02800CC4E70 /* Images.swift in Sources */,
+				E143964029ACBD4500CC4E70 /* GradientButton.swift in Sources */,
+				E143964529ACBEE600CC4E70 /* User.swift in Sources */,
+				E143965229ACC2D800CC4E70 /* MatchCell.swift in Sources */,
+				E143964929ACBF4B00CC4E70 /* TopCard.swift in Sources */,
+				E143965629ACC33A00CC4E70 /* Dialog.swift in Sources */,
 				E143962929ACBC0700CC4E70 /* swiftui_component_examplesApp.swift in Sources */,
+				E143965429ACC32300CC4E70 /* Match.swift in Sources */,
+				E143965829ACC36000CC4E70 /* Message.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +427,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E143963629ACBC5500CC4E70 /* XCRemoteSwiftPackageReference "NukeUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kean/NukeUI";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		E143963929ACBC8100CC4E70 /* XCRemoteSwiftPackageReference "grpc-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/grpc/grpc-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		E143963C29ACBCA800CC4E70 /* XCRemoteSwiftPackageReference "swift-protobuf" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-protobuf.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E143963729ACBC5500CC4E70 /* NukeUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E143963629ACBC5500CC4E70 /* XCRemoteSwiftPackageReference "NukeUI" */;
+			productName = NukeUI;
+		};
+		E143963A29ACBC8100CC4E70 /* GRPC */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E143963929ACBC8100CC4E70 /* XCRemoteSwiftPackageReference "grpc-swift" */;
+			productName = GRPC;
+		};
+		E143963D29ACBCA800CC4E70 /* SwiftProtobuf */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E143963C29ACBCA800CC4E70 /* XCRemoteSwiftPackageReference "swift-protobuf" */;
+			productName = SwiftProtobuf;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E143961D29ACBC0700CC4E70 /* Project object */;
 }
